@@ -12,10 +12,10 @@ jobs:
 
       steps:
         -name:Checkout code
-         uses:actions
+         uses:actions/checkout@v4
 
         -name:Set up Python
-         uses:actions
+         uses:actions/setup-python@v4
          with:
             python-version:"3.11"
 
